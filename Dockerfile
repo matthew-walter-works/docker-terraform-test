@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-ENV TERRAFORM_VERSION=0.11.14
+ENV TERRAFORM_VERSION=0.13.1
 
 RUN apk add curl git gcc g++ && \
     curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh && \
